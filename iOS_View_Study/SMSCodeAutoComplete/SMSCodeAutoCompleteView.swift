@@ -34,15 +34,26 @@ struct SMSCodeAutoCompleteView: View {
       """
         )
         
-        TextField("인증코드를 입력해주세요.(TextField)", text: $typpedCode)
-          .textContentType(.oneTimeCode)
-          .padding()
-          .overlay {
-            RoundedRectangle(cornerRadius: 12)
-              .fill(.clear)
-              .strokeBorder(.black)
-          }
-          .padding(.horizontal, 30)
+        VStack(spacing: 12) {
+          SecureField("인증코드를 입력해주세요.(SecureField)", text: .constant(""))
+            .textContentType(.oneTimeCode)
+            .padding()
+            .overlay {
+              RoundedRectangle(cornerRadius: 12)
+                .fill(.clear)
+                .strokeBorder(.black)
+            }
+          
+          TextField("인증코드를 입력해주세요.(TextField)", text: $typpedCode)
+            .textContentType(.oneTimeCode)
+            .padding()
+            .overlay {
+              RoundedRectangle(cornerRadius: 12)
+                .fill(.clear)
+                .strokeBorder(.black)
+            }
+        }
+        .padding(.horizontal, 30)
         
         Spacer()
       }

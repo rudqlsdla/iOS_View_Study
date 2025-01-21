@@ -8,15 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+  var body: some View {
+    NavigationStack {
+      List {
+        ForEach(StudyTopic.allCases, id: \.self) { topic in
+          NavigationLink(topic.rawValue, value: topic)
         }
-        .padding()
+      }
+      .navigationDestination(for: StudyTopic.self) { topic in
+        setStudyView(with: topic)
+      }
+      .navigationTitle("iOS Study")
     }
+  }
+}
+
+private extension ContentView {
+  @ViewBuilder
+  func setStudyView(with topic: StudyTopic) -> some View {
+    switch topic {
+    case .navigationStack:
+      NavigationStackView()
+    }
+  }
 }
 
 #Preview {

@@ -8,5 +8,5 @@
 import Foundation
 
 enum StudyTopic: String, Hashable, CaseIterable {
-  case Test = "테스트"
+  case navigationStack = "네비게이션 스택"
 }

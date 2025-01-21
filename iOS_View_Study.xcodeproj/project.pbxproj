@@ -11,6 +11,8 @@
 		89EFFDCB2D3FD28200963DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EFFDC52D3FD28200963DA4 /* Assets.xcassets */; };
 		89EFFDCD2D3FD28200963DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDC62D3FD28200963DA4 /* ContentView.swift */; };
 		89EFFDCE2D3FD28200963DA4 /* iOS_View_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDC72D3FD28200963DA4 /* iOS_View_StudyApp.swift */; };
+		89EFFDD52D3FD72200963DA4 /* StudyTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDD42D3FD72200963DA4 /* StudyTopic.swift */; };
+		89EFFDD92D3FD7E100963DA4 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDD82D3FD7E100963DA4 /* NavigationStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		89EFFDC52D3FD28200963DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89EFFDC62D3FD28200963DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89EFFDC72D3FD28200963DA4 /* iOS_View_StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_View_StudyApp.swift; sourceTree = "<group>"; };
+		89EFFDD42D3FD72200963DA4 /* StudyTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTopic.swift; sourceTree = "<group>"; };
+		89EFFDD82D3FD7E100963DA4 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				89EFFDC92D3FD28200963DA4 /* iOS_View_Study */,
+				89EFFDD72D3FD78600963DA4 /* NavigationStack */,
 				89EFFD7C2D3FCCFB00963DA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,8 +76,17 @@
 				89EFFDC52D3FD28200963DA4 /* Assets.xcassets */,
 				89EFFDC62D3FD28200963DA4 /* ContentView.swift */,
 				89EFFDC72D3FD28200963DA4 /* iOS_View_StudyApp.swift */,
+				89EFFDD42D3FD72200963DA4 /* StudyTopic.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		89EFFDD72D3FD78600963DA4 /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				89EFFDD82D3FD7E100963DA4 /* NavigationStackView.swift */,
+			);
+			path = NavigationStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EFFDCD2D3FD28200963DA4 /* ContentView.swift in Sources */,
+				89EFFDD92D3FD7E100963DA4 /* NavigationStackView.swift in Sources */,
 				89EFFDCE2D3FD28200963DA4 /* iOS_View_StudyApp.swift in Sources */,
+				89EFFDD52D3FD72200963DA4 /* StudyTopic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

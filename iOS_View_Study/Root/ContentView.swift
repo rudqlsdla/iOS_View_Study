@@ -29,6 +29,8 @@ private extension ContentView {
     switch topic {
     case .navigationStack:
       NavigationStackView()
+    case .SMSCodeAutoCompleteView:
+      SMSCodeAutoCompleteView()
     }
   }
 }

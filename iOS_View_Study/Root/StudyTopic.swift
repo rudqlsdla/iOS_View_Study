@@ -10,4 +10,5 @@ import Foundation
 enum StudyTopic: String, Hashable, CaseIterable {
   case navigationStack = "네비게이션 스택"
   case SMSCodeAutoCompleteView = "SMS 인증코드 자동 완성"
+  case SendMessage = "메시지 전송하기"
 }

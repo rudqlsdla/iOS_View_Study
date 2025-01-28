@@ -15,6 +15,7 @@
 		89EFFDD92D3FD7E100963DA4 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDD82D3FD7E100963DA4 /* NavigationStackView.swift */; };
 		89EFFDDC2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDDB2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift */; };
 		89EFFDE92D48D62600963DA4 /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDE82D48D62600963DA4 /* SendMessageView.swift */; };
+		89EFFDEB2D48D78500963DA4 /* MFMessageComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDEA2D48D78500963DA4 /* MFMessageComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		89EFFDD82D3FD7E100963DA4 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		89EFFDDB2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeAutoCompleteView.swift; sourceTree = "<group>"; };
 		89EFFDE82D48D62600963DA4 /* SendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
+		89EFFDEA2D48D78500963DA4 /* MFMessageComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFMessageComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				89EFFDE82D48D62600963DA4 /* SendMessageView.swift */,
+				89EFFDEA2D48D78500963DA4 /* MFMessageComposeView.swift */,
 			);
 			path = SendMessage;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				89EFFDCD2D3FD28200963DA4 /* ContentView.swift in Sources */,
 				89EFFDD92D3FD7E100963DA4 /* NavigationStackView.swift in Sources */,
+				89EFFDEB2D48D78500963DA4 /* MFMessageComposeView.swift in Sources */,
 				89EFFDDC2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift in Sources */,
 				89EFFDCE2D3FD28200963DA4 /* iOS_View_StudyApp.swift in Sources */,
 				89EFFDE92D48D62600963DA4 /* SendMessageView.swift in Sources */,

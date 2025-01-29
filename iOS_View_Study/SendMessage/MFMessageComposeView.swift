@@ -9,12 +9,16 @@ import MessageUI
 import SwiftUI
 
 struct MFMessageComposeView: UIViewControllerRepresentable {
+  // UIViewControllerType은 MFMessageComposeViewController 타입
   typealias UIViewControllerType = MFMessageComposeViewController
+  
+  let recipients: [String]
+  let message: String
   
   func makeUIViewController(context: Context) -> MFMessageComposeViewController {
     let viewController = MFMessageComposeViewController()
-    viewController.recipients = ["메시지를 받을 사람"]
-    viewController.body = "메시지를 보낼 내용이 담기는 body"
+    viewController.recipients = recipients
+    viewController.body = message
     viewController.messageComposeDelegate = context.coordinator
     return viewController
   }
@@ -35,7 +39,6 @@ class Coordinator: NSObject, MFMessageComposeViewControllerDelegate {
   }
   
   func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
-    print(result)
     switch result {
     case .cancelled:
       print("메시지 전송 취소")
@@ -51,5 +54,5 @@ class Coordinator: NSObject, MFMessageComposeViewControllerDelegate {
 }
 
 #Preview {
-  MFMessageComposeView()
+  MFMessageComposeView(recipients: [], message: "")
 }

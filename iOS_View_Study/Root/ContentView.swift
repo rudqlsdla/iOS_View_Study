@@ -31,6 +31,8 @@ private extension ContentView {
       NavigationStackView()
     case .SMSCodeAutoCompleteView:
       SMSCodeAutoCompleteView()
+    case .SendMessage:
+      SendMessageView()
     }
   }
 }

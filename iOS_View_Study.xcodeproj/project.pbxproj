@@ -16,6 +16,7 @@
 		89EFFDDC2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDDB2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift */; };
 		89EFFDE92D48D62600963DA4 /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDE82D48D62600963DA4 /* SendMessageView.swift */; };
 		89EFFDEB2D48D78500963DA4 /* MFMessageComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDEA2D48D78500963DA4 /* MFMessageComposeView.swift */; };
+		89EFFDEE2D5A236200963DA4 /* MotionShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		89EFFDDB2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeAutoCompleteView.swift; sourceTree = "<group>"; };
 		89EFFDE82D48D62600963DA4 /* SendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
 		89EFFDEA2D48D78500963DA4 /* MFMessageComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFMessageComposeView.swift; sourceTree = "<group>"; };
+		89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				89EFFDD02D3FD28500963DA4 /* Root */,
+				89EFFDEC2D5A235500963DA4 /* MotionShake */,
 				89EFFDE72D48D61200963DA4 /* SendMessage */,
 				89EFFDDA2D3FD95C00963DA4 /* SMSCodeAutoComplete */,
 				89EFFDD72D3FD78600963DA4 /* NavigationStack */,
@@ -112,6 +115,14 @@
 				89EFFDEA2D48D78500963DA4 /* MFMessageComposeView.swift */,
 			);
 			path = SendMessage;
+			sourceTree = "<group>";
+		};
+		89EFFDEC2D5A235500963DA4 /* MotionShake */ = {
+			isa = PBXGroup;
+			children = (
+				89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */,
+			);
+			path = MotionShake;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 				89EFFDEB2D48D78500963DA4 /* MFMessageComposeView.swift in Sources */,
 				89EFFDDC2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift in Sources */,
 				89EFFDCE2D3FD28200963DA4 /* iOS_View_StudyApp.swift in Sources */,
+				89EFFDEE2D5A236200963DA4 /* MotionShakeView.swift in Sources */,
 				89EFFDE92D48D62600963DA4 /* SendMessageView.swift in Sources */,
 				89EFFDD52D3FD72200963DA4 /* StudyTopic.swift in Sources */,
 			);

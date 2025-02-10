@@ -17,6 +17,8 @@
 		89EFFDE92D48D62600963DA4 /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDE82D48D62600963DA4 /* SendMessageView.swift */; };
 		89EFFDEB2D48D78500963DA4 /* MFMessageComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDEA2D48D78500963DA4 /* MFMessageComposeView.swift */; };
 		89EFFDEE2D5A236200963DA4 /* MotionShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */; };
+		89EFFDFA2D5A367500963DA4 /* MotionShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDF92D5A367500963DA4 /* MotionShakeViewController.swift */; };
+		89EFFDFC2D5A36BA00963DA4 /* MotionShakeQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDFB2D5A36BA00963DA4 /* MotionShakeQR.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		89EFFDE82D48D62600963DA4 /* SendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
 		89EFFDEA2D48D78500963DA4 /* MFMessageComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFMessageComposeView.swift; sourceTree = "<group>"; };
 		89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeView.swift; sourceTree = "<group>"; };
+		89EFFDF92D5A367500963DA4 /* MotionShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeViewController.swift; sourceTree = "<group>"; };
+		89EFFDFB2D5A36BA00963DA4 /* MotionShakeQR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeQR.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */,
+				89EFFDFB2D5A36BA00963DA4 /* MotionShakeQR.swift */,
+				89EFFDF92D5A367500963DA4 /* MotionShakeViewController.swift */,
 			);
 			path = MotionShake;
 			sourceTree = "<group>";
@@ -201,9 +207,11 @@
 				89EFFDCD2D3FD28200963DA4 /* ContentView.swift in Sources */,
 				89EFFDD92D3FD7E100963DA4 /* NavigationStackView.swift in Sources */,
 				89EFFDEB2D48D78500963DA4 /* MFMessageComposeView.swift in Sources */,
+				89EFFDFA2D5A367500963DA4 /* MotionShakeViewController.swift in Sources */,
 				89EFFDDC2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift in Sources */,
 				89EFFDCE2D3FD28200963DA4 /* iOS_View_StudyApp.swift in Sources */,
 				89EFFDEE2D5A236200963DA4 /* MotionShakeView.swift in Sources */,
+				89EFFDFC2D5A36BA00963DA4 /* MotionShakeQR.swift in Sources */,
 				89EFFDE92D48D62600963DA4 /* SendMessageView.swift in Sources */,
 				89EFFDD52D3FD72200963DA4 /* StudyTopic.swift in Sources */,
 			);

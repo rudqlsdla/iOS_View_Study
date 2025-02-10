@@ -19,6 +19,7 @@
 		89EFFDEE2D5A236200963DA4 /* MotionShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */; };
 		89EFFDFA2D5A367500963DA4 /* MotionShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDF92D5A367500963DA4 /* MotionShakeViewController.swift */; };
 		89EFFDFC2D5A36BA00963DA4 /* MotionShakeQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDFB2D5A36BA00963DA4 /* MotionShakeQR.swift */; };
+		89EFFDFE2D5A3B0A00963DA4 /* MotionShakeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDFD2D5A3B0A00963DA4 /* MotionShakeType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeView.swift; sourceTree = "<group>"; };
 		89EFFDF92D5A367500963DA4 /* MotionShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeViewController.swift; sourceTree = "<group>"; };
 		89EFFDFB2D5A36BA00963DA4 /* MotionShakeQR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeQR.swift; sourceTree = "<group>"; };
+		89EFFDFD2D5A3B0A00963DA4 /* MotionShakeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				89EFFDED2D5A236200963DA4 /* MotionShakeView.swift */,
 				89EFFDFB2D5A36BA00963DA4 /* MotionShakeQR.swift */,
 				89EFFDF92D5A367500963DA4 /* MotionShakeViewController.swift */,
+				89EFFDFD2D5A3B0A00963DA4 /* MotionShakeType.swift */,
 			);
 			path = MotionShake;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				89EFFDEE2D5A236200963DA4 /* MotionShakeView.swift in Sources */,
 				89EFFDFC2D5A36BA00963DA4 /* MotionShakeQR.swift in Sources */,
 				89EFFDE92D48D62600963DA4 /* SendMessageView.swift in Sources */,
+				89EFFDFE2D5A3B0A00963DA4 /* MotionShakeType.swift in Sources */,
 				89EFFDD52D3FD72200963DA4 /* StudyTopic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

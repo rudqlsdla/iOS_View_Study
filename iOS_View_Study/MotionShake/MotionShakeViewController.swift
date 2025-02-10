@@ -12,9 +12,6 @@ class MotionShakeViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-  }
-  
-  override func loadView() {
     setMessage()
   }
   
@@ -27,7 +24,8 @@ class MotionShakeViewController: UIViewController {
   }
   
   override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-    // 흔들면서 시작이 탈 때, 타이밍 맞게 멈추면 종료를 안탐
+    // 흔들림이 지속될 때, 모션 이벤트 취소가 필요한 interruption을 수신할 때
+    // interruption에는 앱 비활성화, 모션 이벤트를 처리하는 View 제거 등이 존재
     changeLabel(with: .ended)
     print("모션 종료")
   }

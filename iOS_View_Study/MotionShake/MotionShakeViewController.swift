@@ -24,13 +24,13 @@ class MotionShakeViewController: UIViewController {
   }
   
   override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-    // 흔들림이 지속될 때, 모션 이벤트 취소가 필요한 interruption을 수신할 때
-    // interruption에는 앱 비활성화, 모션 이벤트를 처리하는 View 제거 등이 존재
     changeLabel(with: .ended)
     print("모션 종료")
   }
   
   override func motionCancelled(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+    // 흔들림이 지속될 때, 모션 이벤트 취소가 필요한 interruption을 수신할 때
+    // interruption에는 앱 비활성화, 모션 이벤트를 처리하는 View 제거 등이 존재
     changeLabel(with: .cancelled)
     print("모션 취소")
   }

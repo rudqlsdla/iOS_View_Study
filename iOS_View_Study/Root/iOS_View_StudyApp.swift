@@ -9,9 +9,23 @@ import SwiftUI
 
 @main
 struct iOS_View_StudyApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+  @Environment(\.scenePhase) var scenePhase
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .onChange(of: scenePhase) {
+          switch scenePhase {
+          case .active:
+            print("active")
+          case .inactive:
+            print("inactive")
+          case .background:
+            print("background")
+          default:
+            print("default - \(scenePhase)")
+          }
         }
     }
+  }
 }

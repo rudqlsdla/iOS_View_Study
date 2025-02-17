@@ -10,11 +10,13 @@ import SwiftUI
 @main
 struct iOS_View_StudyApp: App {
   @Environment(\.scenePhase) var scenePhase
+  @State private var scenePhaseType: ScenePhase = .active
   
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      ContentView(scenePhaseType: $scenePhaseType)
         .onChange(of: scenePhase) {
+          scenePhaseType = scenePhase
           switch scenePhase {
           case .active:
             print("active")

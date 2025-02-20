@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-  @Binding var scenePhaseType: ScenePhase
-  
   var body: some View {
     NavigationStack {
       List {
@@ -21,11 +19,6 @@ struct ContentView: View {
         setStudyView(with: topic)
       }
       .navigationTitle("iOS Study")
-    }
-    .overlay {
-      if scenePhaseType != .active {
-        ScreenProtectionView()
-      }
     }
   }
 }
@@ -42,22 +35,12 @@ private extension ContentView {
       SendMessageView()
     case .motionShake:
       MotionShakeView()
-    }
-  }
-  
-  struct ScreenProtectionView: View {
-    var body: some View {
-      ZStack {
-        Color.black
-        Image(systemName: "hand.raised.slash.fill")
-          .scaleEffect(5)
-          .foregroundStyle(.white)
-      }
-      .ignoresSafeArea()
+    case .scenePhase:
+      ScenePhaseView()
     }
   }
 }
 
 #Preview {
-  ContentView(scenePhaseType: .constant(.active))
+  ContentView()
 }

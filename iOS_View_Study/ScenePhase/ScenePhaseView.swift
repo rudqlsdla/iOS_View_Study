@@ -23,6 +23,9 @@ struct ScenePhaseView: View {
         Text("ScenePhase Observing View")
           .font(.title)
           .onChange(of: scenePhase) {
+            // 뷰 인스턴스 내부에서 Phase를 읽는 경우, 뷰가 포함된 씬의 Phase가 반영됨
+            // 앱 인스턴스 내에서 Phase를 읽는 경우, 앱에 있는 모든 Scene의 Phase가 반영됨
+            // 해당 코드는 뷰 인슽턴스 내부에서 Phase를 읽는 경우
             scenePhaseType = scenePhase
             switch scenePhase {
             case .active:

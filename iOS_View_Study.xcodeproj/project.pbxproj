@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		898E9C0C2D6777B200DCCE82 /* ScenePhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E9C0B2D6777B200DCCE82 /* ScenePhaseView.swift */; };
 		898E9C102D6DE11D00DCCE82 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E9C0E2D6DE11D00DCCE82 /* appIcon.png */; };
 		898E9C112D6DE11D00DCCE82 /* appIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E9C0F2D6DE11D00DCCE82 /* appIcon2.png */; };
 		898E9C142D6DE24C00DCCE82 /* AppIconChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E9C132D6DE24C00DCCE82 /* AppIconChangeView.swift */; };
-		898E9C0C2D6777B200DCCE82 /* ScenePhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E9C0B2D6777B200DCCE82 /* ScenePhaseView.swift */; };
 		89EFFDCA2D3FD28200963DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EFFDC12D3FD28200963DA4 /* Preview Assets.xcassets */; };
 		89EFFDCB2D3FD28200963DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EFFDC52D3FD28200963DA4 /* Assets.xcassets */; };
 		89EFFDCD2D3FD28200963DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDC62D3FD28200963DA4 /* ContentView.swift */; };
@@ -27,11 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		898E9C0B2D6777B200DCCE82 /* ScenePhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePhaseView.swift; sourceTree = "<group>"; };
 		898E9C0E2D6DE11D00DCCE82 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
 		898E9C0F2D6DE11D00DCCE82 /* appIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon2.png; sourceTree = "<group>"; };
 		898E9C122D6DE14A00DCCE82 /* iOS-View-Study-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOS-View-Study-Info.plist"; sourceTree = SOURCE_ROOT; };
 		898E9C132D6DE24C00DCCE82 /* AppIconChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconChangeView.swift; sourceTree = "<group>"; };
-		898E9C0B2D6777B200DCCE82 /* ScenePhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePhaseView.swift; sourceTree = "<group>"; };
 		89EFFD7B2D3FCCFB00963DA4 /* iOS_View_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_View_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EFFDC12D3FD28200963DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89EFFDC52D3FD28200963DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,22 +59,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		898E9C0D2D6DE10700DCCE82 /* AppIcon */ = {
-			isa = PBXGroup;
-			children = (
-				898E9C0E2D6DE11D00DCCE82 /* appIcon.png */,
-				898E9C0F2D6DE11D00DCCE82 /* appIcon2.png */,
-				898E9C132D6DE24C00DCCE82 /* AppIconChangeView.swift */,
-			);
-			path = AppIcon;
-      sourceTree = "<group>";
-    };
 		898E9C0A2D67779B00DCCE82 /* ScenePhase */ = {
 			isa = PBXGroup;
 			children = (
 				898E9C0B2D6777B200DCCE82 /* ScenePhaseView.swift */,
 			);
 			path = ScenePhase;
+			sourceTree = "<group>";
+		};
+		898E9C0D2D6DE10700DCCE82 /* DynamicAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				898E9C0E2D6DE11D00DCCE82 /* appIcon.png */,
+				898E9C0F2D6DE11D00DCCE82 /* appIcon2.png */,
+				898E9C132D6DE24C00DCCE82 /* AppIconChangeView.swift */,
+			);
+			path = DynamicAppIcon;
 			sourceTree = "<group>";
 		};
 		89EFFD722D3FCCFB00963DA4 = {
@@ -105,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				898E9C122D6DE14A00DCCE82 /* iOS-View-Study-Info.plist */,
-				898E9C0D2D6DE10700DCCE82 /* AppIcon */,
 				89EFFDD02D3FD28500963DA4 /* Root */,
+				898E9C0D2D6DE10700DCCE82 /* DynamicAppIcon */,
 				898E9C0A2D67779B00DCCE82 /* ScenePhase */,
 				89EFFDEC2D5A235500963DA4 /* MotionShake */,
 				89EFFDE72D48D61200963DA4 /* SendMessage */,

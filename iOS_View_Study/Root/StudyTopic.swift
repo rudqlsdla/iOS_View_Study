@@ -12,4 +12,5 @@ enum StudyTopic: String, Hashable, CaseIterable {
   case SMSCodeAutoCompleteView = "SMS 인증코드 자동 완성"
   case sendMessage = "메시지 전송하기"
   case motionShake = "흔들기 모션"
+  case scenePhase = "SwiftUI에서 앱 생명주기 감지"
 }

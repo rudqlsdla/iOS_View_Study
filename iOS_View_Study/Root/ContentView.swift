@@ -35,6 +35,8 @@ private extension ContentView {
       SendMessageView()
     case .motionShake:
       MotionShakeView()
+    case .scenePhase:
+      ScenePhaseView()
     case .dynamicAppIcon:
       AppIconChangeView()
     }

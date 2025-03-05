@@ -37,6 +37,8 @@ private extension ContentView {
       MotionShakeView()
     case .scenePhase:
       ScenePhaseView()
+    case .dynamicAppIcon:
+      AppIconChangeView()
     }
   }
 }

@@ -13,4 +13,5 @@ enum StudyTopic: String, Hashable, CaseIterable {
   case sendMessage = "메시지 전송하기"
   case motionShake = "흔들기 모션"
   case scenePhase = "SwiftUI에서 앱 생명주기 감지"
+  case dynamicAppIcon = "앱 아이콘 동적 변경"
 }

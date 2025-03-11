@@ -9,36 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    NavigationStack {
-      List {
-        ForEach(StudyTopic.allCases, id: \.self) { topic in
-          NavigationLink(topic.rawValue, value: topic)
-        }
+    TabView {
+      Tab("Personal", systemImage: "person.fill.questionmark") {
+        PersonalStudyView()
       }
-      .navigationDestination(for: StudyTopic.self) { topic in
-        setStudyView(with: topic)
+      
+      Tab("Kavsoft", systemImage: "document.on.document.fill") {
+        KavsoftStudyView()
       }
-      .navigationTitle("iOS Study")
-    }
-  }
-}
-
-private extension ContentView {
-  @ViewBuilder
-  func setStudyView(with topic: StudyTopic) -> some View {
-    switch topic {
-    case .navigationStack:
-      NavigationStackView()
-    case .SMSCodeAutoCompleteView:
-      SMSCodeAutoCompleteView()
-    case .sendMessage:
-      SendMessageView()
-    case .motionShake:
-      MotionShakeView()
-    case .scenePhase:
-      ScenePhaseView()
-    case .dynamicAppIcon:
-      AppIconChangeView()
     }
   }
 }

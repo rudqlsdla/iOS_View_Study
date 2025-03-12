@@ -33,7 +33,7 @@
 		898E9C0B2D6777B200DCCE82 /* ScenePhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePhaseView.swift; sourceTree = "<group>"; };
 		898E9C0E2D6DE11D00DCCE82 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
 		898E9C0F2D6DE11D00DCCE82 /* appIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon2.png; sourceTree = "<group>"; };
-		898E9C122D6DE14A00DCCE82 /* iOS-View-Study-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOS-View-Study-Info.plist"; sourceTree = SOURCE_ROOT; };
+		898E9C122D6DE14A00DCCE82 /* iOS-View-Study-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-View-Study-Info.plist"; sourceTree = SOURCE_ROOT; };
 		898E9C132D6DE24C00DCCE82 /* AppIconChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconChangeView.swift; sourceTree = "<group>"; };
 		89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyView.swift; sourceTree = "<group>"; };
 		89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftStudyTopic.swift; sourceTree = "<group>"; };
@@ -83,19 +83,36 @@
 			path = DynamicAppIcon;
 			sourceTree = "<group>";
 		};
-		89DAC5642D809A56001BC5C4 /* Topic */ = {
+		89DAC5652D81B9BE001BC5C4 /* Personal */ = {
 			isa = PBXGroup;
 			children = (
+				89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */,
 				89EFFDD42D3FD72200963DA4 /* PersonalStudyTopic.swift */,
+				898E9C0D2D6DE10700DCCE82 /* DynamicAppIcon */,
+				898E9C0A2D67779B00DCCE82 /* ScenePhase */,
+				89EFFDEC2D5A235500963DA4 /* MotionShake */,
+				89EFFDE72D48D61200963DA4 /* SendMessage */,
+				89EFFDDA2D3FD95C00963DA4 /* SMSCodeAutoComplete */,
+				89EFFDD72D3FD78600963DA4 /* NavigationStack */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		89DAC5662D81B9C9001BC5C4 /* Kavsoft */ = {
+			isa = PBXGroup;
+			children = (
+				89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */,
 				89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */,
 			);
-			path = Topic;
+			path = Kavsoft;
 			sourceTree = "<group>";
 		};
 		89EFFD722D3FCCFB00963DA4 = {
 			isa = PBXGroup;
 			children = (
 				89EFFDC92D3FD28200963DA4 /* iOS_View_Study */,
+				89DAC5662D81B9C9001BC5C4 /* Kavsoft */,
+				89DAC5652D81B9BE001BC5C4 /* Personal */,
 				89EFFD7C2D3FCCFB00963DA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,12 +138,6 @@
 			children = (
 				898E9C122D6DE14A00DCCE82 /* iOS-View-Study-Info.plist */,
 				89EFFDD02D3FD28500963DA4 /* Root */,
-				898E9C0D2D6DE10700DCCE82 /* DynamicAppIcon */,
-				898E9C0A2D67779B00DCCE82 /* ScenePhase */,
-				89EFFDEC2D5A235500963DA4 /* MotionShake */,
-				89EFFDE72D48D61200963DA4 /* SendMessage */,
-				89EFFDDA2D3FD95C00963DA4 /* SMSCodeAutoComplete */,
-				89EFFDD72D3FD78600963DA4 /* NavigationStack */,
 			);
 			path = iOS_View_Study;
 			sourceTree = "<group>";
@@ -137,10 +148,7 @@
 				89EFFDC22D3FD28200963DA4 /* Preview Content */,
 				89EFFDC52D3FD28200963DA4 /* Assets.xcassets */,
 				89EFFDC62D3FD28200963DA4 /* ContentView.swift */,
-				89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */,
-				89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */,
 				89EFFDC72D3FD28200963DA4 /* iOS_View_StudyApp.swift */,
-				89DAC5642D809A56001BC5C4 /* Topic */,
 			);
 			path = Root;
 			sourceTree = "<group>";

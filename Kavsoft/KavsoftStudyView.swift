@@ -27,8 +27,8 @@ private extension KavsoftStudyView {
   @ViewBuilder
   func setStudyView(with topic: KavsoftStudyTopic) -> some View {
     switch topic {
-    case .test:
-      Text("test")
+    case .responsiveChipsSelection:
+      ResponsiveChipsSelectionView()
     }
   }
 }

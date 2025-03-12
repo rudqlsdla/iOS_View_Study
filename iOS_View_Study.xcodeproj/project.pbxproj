@@ -14,6 +14,8 @@
 		89DAC5532D80739C001BC5C4 /* PersonalStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */; };
 		89DAC5592D807419001BC5C4 /* KavsoftStudyTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */; };
 		89DAC5632D807C62001BC5C4 /* KavsoftStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */; };
+		89DAC56B2D81BA92001BC5C4 /* ChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC56A2D81BA92001BC5C4 /* ChipsView.swift */; };
+		89DAC56D2D81BB48001BC5C4 /* ResponsiveChipsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC56C2D81BB48001BC5C4 /* ResponsiveChipsSelectionView.swift */; };
 		89EFFDCA2D3FD28200963DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EFFDC12D3FD28200963DA4 /* Preview Assets.xcassets */; };
 		89EFFDCB2D3FD28200963DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EFFDC52D3FD28200963DA4 /* Assets.xcassets */; };
 		89EFFDCD2D3FD28200963DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDC62D3FD28200963DA4 /* ContentView.swift */; };
@@ -38,6 +40,8 @@
 		89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyView.swift; sourceTree = "<group>"; };
 		89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftStudyTopic.swift; sourceTree = "<group>"; };
 		89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftStudyView.swift; sourceTree = "<group>"; };
+		89DAC56A2D81BA92001BC5C4 /* ChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsView.swift; sourceTree = "<group>"; };
+		89DAC56C2D81BB48001BC5C4 /* ResponsiveChipsSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveChipsSelectionView.swift; sourceTree = "<group>"; };
 		89EFFD7B2D3FCCFB00963DA4 /* iOS_View_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_View_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EFFDC12D3FD28200963DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89EFFDC52D3FD28200963DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,8 +107,26 @@
 			children = (
 				89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */,
 				89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */,
+				89DAC5682D81BA66001BC5C4 /* ResponsiveChipsSelection */,
 			);
 			path = Kavsoft;
+			sourceTree = "<group>";
+		};
+		89DAC5682D81BA66001BC5C4 /* ResponsiveChipsSelection */ = {
+			isa = PBXGroup;
+			children = (
+				89DAC5692D81BA8B001BC5C4 /* Helper */,
+				89DAC56C2D81BB48001BC5C4 /* ResponsiveChipsSelectionView.swift */,
+			);
+			path = ResponsiveChipsSelection;
+			sourceTree = "<group>";
+		};
+		89DAC5692D81BA8B001BC5C4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				89DAC56A2D81BA92001BC5C4 /* ChipsView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		89EFFD722D3FCCFB00963DA4 = {
@@ -269,7 +291,9 @@
 				89EFFDEB2D48D78500963DA4 /* MFMessageComposeView.swift in Sources */,
 				89EFFDFA2D5A367500963DA4 /* MotionShakeViewController.swift in Sources */,
 				89EFFDDC2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift in Sources */,
+				89DAC56B2D81BA92001BC5C4 /* ChipsView.swift in Sources */,
 				89EFFDCE2D3FD28200963DA4 /* iOS_View_StudyApp.swift in Sources */,
+				89DAC56D2D81BB48001BC5C4 /* ResponsiveChipsSelectionView.swift in Sources */,
 				89EFFDEE2D5A236200963DA4 /* MotionShakeView.swift in Sources */,
 				89DAC5592D807419001BC5C4 /* KavsoftStudyTopic.swift in Sources */,
 				89DAC5632D807C62001BC5C4 /* KavsoftStudyView.swift in Sources */,

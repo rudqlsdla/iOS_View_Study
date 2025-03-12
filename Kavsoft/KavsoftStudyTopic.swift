@@ -8,5 +8,5 @@
 import Foundation
 
 enum KavsoftStudyTopic: String, Hashable, CaseIterable {
-  case test = "test"
+  case responsiveChipsSelection = "Responsive Chips Selection View"
 }

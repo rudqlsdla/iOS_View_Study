@@ -14,6 +14,8 @@
 		89DAC5532D80739C001BC5C4 /* PersonalStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */; };
 		89DAC5592D807419001BC5C4 /* KavsoftStudyTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */; };
 		89DAC5632D807C62001BC5C4 /* KavsoftStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */; };
+		89DAC5712D8BC152001BC5C4 /* EndianCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5702D8BC152001BC5C4 /* EndianCheckView.swift */; };
+		89DAC57D2D8BC36F001BC5C4 /* EndiannessChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC57C2D8BC36F001BC5C4 /* EndiannessChecker.m */; };
 		89EFFDCA2D3FD28200963DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EFFDC12D3FD28200963DA4 /* Preview Assets.xcassets */; };
 		89EFFDCB2D3FD28200963DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EFFDC52D3FD28200963DA4 /* Assets.xcassets */; };
 		89EFFDCD2D3FD28200963DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFFDC62D3FD28200963DA4 /* ContentView.swift */; };
@@ -38,6 +40,10 @@
 		89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyView.swift; sourceTree = "<group>"; };
 		89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftStudyTopic.swift; sourceTree = "<group>"; };
 		89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftStudyView.swift; sourceTree = "<group>"; };
+		89DAC5702D8BC152001BC5C4 /* EndianCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndianCheckView.swift; sourceTree = "<group>"; };
+		89DAC5752D8BC25A001BC5C4 /* iOS_View_Study-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_View_Study-Bridging-Header.h"; sourceTree = "<group>"; };
+		89DAC5782D8BC2FB001BC5C4 /* EndiannessChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndiannessChecker.h; sourceTree = "<group>"; };
+		89DAC57C2D8BC36F001BC5C4 /* EndiannessChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EndiannessChecker.m; sourceTree = "<group>"; };
 		89EFFD7B2D3FCCFB00963DA4 /* iOS_View_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_View_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EFFDC12D3FD28200963DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89EFFDC52D3FD28200963DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +94,7 @@
 			children = (
 				89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */,
 				89EFFDD42D3FD72200963DA4 /* PersonalStudyTopic.swift */,
+				89DAC56F2D8BC144001BC5C4 /* Endian */,
 				898E9C0D2D6DE10700DCCE82 /* DynamicAppIcon */,
 				898E9C0A2D67779B00DCCE82 /* ScenePhase */,
 				89EFFDEC2D5A235500963DA4 /* MotionShake */,
@@ -105,6 +112,16 @@
 				89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */,
 			);
 			path = Kavsoft;
+			sourceTree = "<group>";
+		};
+		89DAC56F2D8BC144001BC5C4 /* Endian */ = {
+			isa = PBXGroup;
+			children = (
+				89DAC5702D8BC152001BC5C4 /* EndianCheckView.swift */,
+				89DAC57C2D8BC36F001BC5C4 /* EndiannessChecker.m */,
+				89DAC5782D8BC2FB001BC5C4 /* EndiannessChecker.h */,
+			);
+			path = Endian;
 			sourceTree = "<group>";
 		};
 		89EFFD722D3FCCFB00963DA4 = {
@@ -149,6 +166,7 @@
 				89EFFDC52D3FD28200963DA4 /* Assets.xcassets */,
 				89EFFDC62D3FD28200963DA4 /* ContentView.swift */,
 				89EFFDC72D3FD28200963DA4 /* iOS_View_StudyApp.swift */,
+				89DAC5752D8BC25A001BC5C4 /* iOS_View_Study-Bridging-Header.h */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -223,6 +241,7 @@
 				TargetAttributes = {
 					89EFFD7A2D3FCCFB00963DA4 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -271,6 +290,7 @@
 				89EFFDDC2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift in Sources */,
 				89EFFDCE2D3FD28200963DA4 /* iOS_View_StudyApp.swift in Sources */,
 				89EFFDEE2D5A236200963DA4 /* MotionShakeView.swift in Sources */,
+				89DAC57D2D8BC36F001BC5C4 /* EndiannessChecker.m in Sources */,
 				89DAC5592D807419001BC5C4 /* KavsoftStudyTopic.swift in Sources */,
 				89DAC5632D807C62001BC5C4 /* KavsoftStudyView.swift in Sources */,
 				89EFFDFC2D5A36BA00963DA4 /* MotionShakeQR.swift in Sources */,
@@ -279,6 +299,7 @@
 				898E9C0C2D6777B200DCCE82 /* ScenePhaseView.swift in Sources */,
 				89EFFDFE2D5A3B0A00963DA4 /* MotionShakeType.swift in Sources */,
 				89DAC5532D80739C001BC5C4 /* PersonalStudyView.swift in Sources */,
+				89DAC5712D8BC152001BC5C4 /* EndianCheckView.swift in Sources */,
 				89EFFDD52D3FD72200963DA4 /* PersonalStudyTopic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,8 +431,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS_View_Study/Root/Preview Content\"";
 				DEVELOPMENT_TEAM = 68A8NDN495;
 				ENABLE_PREVIEWS = YES;
@@ -430,6 +453,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.iOS-View-Study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_View_Study/Root/iOS_View_Study-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,8 +465,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS_View_Study/Root/Preview Content\"";
 				DEVELOPMENT_TEAM = 68A8NDN495;
 				ENABLE_PREVIEWS = YES;
@@ -460,6 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.iOS-View-Study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_View_Study/Root/iOS_View_Study-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

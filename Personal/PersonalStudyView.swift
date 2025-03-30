@@ -39,6 +39,8 @@ private extension PersonalStudyView {
       ScenePhaseView()
     case .dynamicAppIcon:
       AppIconChangeView()
+    case .endian:
+      EndianCheckView()
     }
   }
 }

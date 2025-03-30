@@ -10,13 +10,17 @@
 @implementation EndiannessChecker
 
 + (NSString *)checkEndianness {
-  int num = 1;
-  char *ptr = (char*)&num;
+  int num = 0x12345678;
+  unsigned char *ptr = (unsigned char*)&num;
   
-  if (*ptr == 1) {
-    return @"LITTLE ENDIAN";
+  NSLog(@"Stored bytes: %02X %02X %02X %02X", ptr[0], ptr[1], ptr[2], ptr[3]);
+  
+  if (ptr[0] == 0x78) {
+    return @"LITTLE ENDIAN";  // 78 56 34 12 (LSB 먼저)
+  } else if (ptr[0] == 0x12) {
+    return @"BIG ENDIAN";  // 12 34 56 78 (MSB 먼저)
   } else {
-    return @"BIG ENDIAN";
+    return @"UNKNOWN ENDIAN";  // 예상치 못한 결과
   }
 }
 

@@ -11,7 +11,7 @@
 
 + (NSString *)checkEndianness {
   int num = 0x12345678;
-  unsigned char *ptr = (unsigned char*)&num;
+  char *ptr = (char*)&num;
   
   NSLog(@"Stored bytes: %02X %02X %02X %02X", ptr[0], ptr[1], ptr[2], ptr[3]);
   

@@ -11,6 +11,15 @@
 		898E9C102D6DE11D00DCCE82 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E9C0E2D6DE11D00DCCE82 /* appIcon.png */; };
 		898E9C112D6DE11D00DCCE82 /* appIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E9C0F2D6DE11D00DCCE82 /* appIcon2.png */; };
 		898E9C142D6DE24C00DCCE82 /* AppIconChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E9C132D6DE24C00DCCE82 /* AppIconChangeView.swift */; };
+		89C222492DE18D270014BC63 /* ARStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C222482DE18D270014BC63 /* ARStudyView.swift */; };
+		89C2224B2DE18D520014BC63 /* SceneKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C2224A2DE18D520014BC63 /* SceneKitContainer.swift */; };
+		89C2224D2DE18D5A0014BC63 /* RealityKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C2224C2DE18D5A0014BC63 /* RealityKitContainer.swift */; };
+		89C2224F2DE18FC70014BC63 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C2224E2DE18FC70014BC63 /* SwiftUIView.swift */; };
+		89C222542DE1932F0014BC63 /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 89C222522DE1932F0014BC63 /* sneaker_airforce.usdz */; };
+		89C222552DE1932F0014BC63 /* toy_drummer_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 89C222532DE1932F0014BC63 /* toy_drummer_idle.usdz */; };
+		89C222562DE1932F0014BC63 /* CosmonautSuit_en.reality in Resources */ = {isa = PBXBuildFile; fileRef = 89C222512DE1932F0014BC63 /* CosmonautSuit_en.reality */; };
+		89C222592DE1944E0014BC63 /* LunarRover_English.reality in Resources */ = {isa = PBXBuildFile; fileRef = 89C222582DE1944E0014BC63 /* LunarRover_English.reality */; };
+		89C2225A2DE1944E0014BC63 /* hab_en.reality in Resources */ = {isa = PBXBuildFile; fileRef = 89C222572DE1944E0014BC63 /* hab_en.reality */; };
 		89DAC5532D80739C001BC5C4 /* PersonalStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */; };
 		89DAC5592D807419001BC5C4 /* KavsoftStudyTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */; };
 		89DAC5632D807C62001BC5C4 /* KavsoftStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */; };
@@ -37,6 +46,15 @@
 		898E9C0F2D6DE11D00DCCE82 /* appIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon2.png; sourceTree = "<group>"; };
 		898E9C122D6DE14A00DCCE82 /* iOS-View-Study-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-View-Study-Info.plist"; sourceTree = SOURCE_ROOT; };
 		898E9C132D6DE24C00DCCE82 /* AppIconChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconChangeView.swift; sourceTree = "<group>"; };
+		89C222482DE18D270014BC63 /* ARStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARStudyView.swift; sourceTree = "<group>"; };
+		89C2224A2DE18D520014BC63 /* SceneKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitContainer.swift; sourceTree = "<group>"; };
+		89C2224C2DE18D5A0014BC63 /* RealityKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitContainer.swift; sourceTree = "<group>"; };
+		89C2224E2DE18FC70014BC63 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		89C222512DE1932F0014BC63 /* CosmonautSuit_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit_en.reality; sourceTree = "<group>"; };
+		89C222522DE1932F0014BC63 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
+		89C222532DE1932F0014BC63 /* toy_drummer_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = toy_drummer_idle.usdz; sourceTree = "<group>"; };
+		89C222572DE1944E0014BC63 /* hab_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = hab_en.reality; sourceTree = "<group>"; };
+		89C222582DE1944E0014BC63 /* LunarRover_English.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = LunarRover_English.reality; sourceTree = "<group>"; };
 		89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStudyView.swift; sourceTree = "<group>"; };
 		89DAC5582D807419001BC5C4 /* KavsoftStudyTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftStudyTopic.swift; sourceTree = "<group>"; };
 		89DAC5622D807C62001BC5C4 /* KavsoftStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftStudyView.swift; sourceTree = "<group>"; };
@@ -89,9 +107,34 @@
 			path = DynamicAppIcon;
 			sourceTree = "<group>";
 		};
+		89C222472DE18D0E0014BC63 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				89C222502DE193270014BC63 /* Model */,
+				89C222482DE18D270014BC63 /* ARStudyView.swift */,
+				89C2224C2DE18D5A0014BC63 /* RealityKitContainer.swift */,
+				89C2224A2DE18D520014BC63 /* SceneKitContainer.swift */,
+				89C2224E2DE18FC70014BC63 /* SwiftUIView.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		89C222502DE193270014BC63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89C222572DE1944E0014BC63 /* hab_en.reality */,
+				89C222582DE1944E0014BC63 /* LunarRover_English.reality */,
+				89C222512DE1932F0014BC63 /* CosmonautSuit_en.reality */,
+				89C222522DE1932F0014BC63 /* sneaker_airforce.usdz */,
+				89C222532DE1932F0014BC63 /* toy_drummer_idle.usdz */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		89DAC5652D81B9BE001BC5C4 /* Personal */ = {
 			isa = PBXGroup;
 			children = (
+				89C222472DE18D0E0014BC63 /* AR */,
 				89DAC5522D80739C001BC5C4 /* PersonalStudyView.swift */,
 				89EFFDD42D3FD72200963DA4 /* PersonalStudyTopic.swift */,
 				89DAC56F2D8BC144001BC5C4 /* Endian */,
@@ -270,8 +313,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EFFDCA2D3FD28200963DA4 /* Preview Assets.xcassets in Resources */,
+				89C222542DE1932F0014BC63 /* sneaker_airforce.usdz in Resources */,
+				89C222552DE1932F0014BC63 /* toy_drummer_idle.usdz in Resources */,
+				89C222562DE1932F0014BC63 /* CosmonautSuit_en.reality in Resources */,
 				89EFFDCB2D3FD28200963DA4 /* Assets.xcassets in Resources */,
 				898E9C102D6DE11D00DCCE82 /* appIcon.png in Resources */,
+				89C222592DE1944E0014BC63 /* LunarRover_English.reality in Resources */,
+				89C2225A2DE1944E0014BC63 /* hab_en.reality in Resources */,
 				898E9C112D6DE11D00DCCE82 /* appIcon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +333,7 @@
 			files = (
 				89EFFDCD2D3FD28200963DA4 /* ContentView.swift in Sources */,
 				89EFFDD92D3FD7E100963DA4 /* NavigationStackView.swift in Sources */,
+				89C2224F2DE18FC70014BC63 /* SwiftUIView.swift in Sources */,
 				89EFFDEB2D48D78500963DA4 /* MFMessageComposeView.swift in Sources */,
 				89EFFDFA2D5A367500963DA4 /* MotionShakeViewController.swift in Sources */,
 				89EFFDDC2D3FD9B100963DA4 /* SMSCodeAutoCompleteView.swift in Sources */,
@@ -300,7 +349,10 @@
 				89EFFDFE2D5A3B0A00963DA4 /* MotionShakeType.swift in Sources */,
 				89DAC5532D80739C001BC5C4 /* PersonalStudyView.swift in Sources */,
 				89DAC5712D8BC152001BC5C4 /* EndianCheckView.swift in Sources */,
+				89C222492DE18D270014BC63 /* ARStudyView.swift in Sources */,
 				89EFFDD52D3FD72200963DA4 /* PersonalStudyTopic.swift in Sources */,
+				89C2224B2DE18D520014BC63 /* SceneKitContainer.swift in Sources */,
+				89C2224D2DE18D5A0014BC63 /* RealityKitContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +492,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS-View-Study-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR 기능을 사용하기 위해 카메라 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -474,6 +527,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS-View-Study-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR 기능을 사용하기 위해 카메라 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

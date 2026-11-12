@@ -41,6 +41,8 @@ private extension PersonalStudyView {
       AppIconChangeView()
     case .endian:
       EndianCheckView()
+    case .ar:
+      ARStudyView()
     }
   }
 }
